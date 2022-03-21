@@ -1,0 +1,65 @@
+What is angular?
+Javascript Binding framework which binds the view with the model. it helps to build SPA by using concept  of routing.
+
+What are Directives and what are 3 different types of directives?
+Directives angular syntax inside angular HTML which change the behavour of HTML. It change the behavour of HTML DOM.
+Structural Directive: change the DOM lyout by adding and removing elements
+Attribute Directive: change the appearance and behavour of HTML elemetns. e.g <div [hidden]="hide()" />
+Component Directive: Directive with templates. It's like user control.
+
+What is component and Module?
+Component is where we wrtire your binding code. Module logically groups components.
+
+Importance of decorator?
+it defines what kind of Angular class i it. If we use @Component the it says it's an angular Component. and @NgModule says its module.
+
+Explain architecture of Angular?
+-Modules-Component-Template-service
+
+what is SPA?
+SPA are appliation where the main UI gets loaded once and then the needed UI is loaded on demand.
+
+Differnt types of data binding?
+Interpolation Binding : data flows from component to html. using {{}}
+property Binding: data flows from component to html and  using []
+Event Binding: it is achieved using ()
+two-way binding: achieved using [(ngModel)]
+
+how to achieve routing in angular?
+First have the collection of routes :
+const route = {
+path:'', component: componentname}
+
+Then we need to use <router-outlet>
+It can be use in HTML as <a [routerLink]="['home']"/>
+It can be use in component as this.router.navigate('Home')
+
+
+What is lazy loading in Angular?
+On demand laoding.Loading only the nececssary tml, css and javascript files so that we have better performance.
+It can be achieved b:
+Divide project into modules wise.
+Use "loadChildren" to l0ad modules
+
+What are services and dependency injection in angular?
+Service helps to share commong logic across angular projects. 
+DI is an application design patter where rather than creating object instance from within the component. Angular injects it via the constructor.
+The service should be used in Providers of NgModule.
+
+ng-serve an ng-build:
+ng serve builds inmemory ng builds builds on the hard disk.
+
+Difference between RxJs and Promise
+RxJs : returns stream of data where as Promise returns single value. Rxjs can be unsubscribe but promise can't be cancelled.
+
+Name of some RxJs Operator?
+Map : transform data in a observable in to a different format.
+Filter: Allows data whcih meets condition.
+Concat:
+
+
+Different life cycle of anuglar?
+
+DIfference bwtween constructor and ngInint()?
+
+

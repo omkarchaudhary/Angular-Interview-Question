@@ -1,0 +1,55 @@
+Angular Topics Discussion:
+
+1. Application Boostrap working
+	a. how angular application works
+	b. Discuss about bootstrap files
+	c. Standalone application
+	
+2. Application Architecture
+	a. Application architect
+	b. File structure
+	c. Module/Component
+	
+3. Component:
+	a. component Creation
+	b. Data binding ( Interpolation, Attribute, Event binding)
+	c. Sharing data among components
+
+4. Angular Life Cycle
+	a. All life cycles, when they are called
+	b. Change Detection
+	c. HostBiding and HostListener
+	
+5. Dependency Injection
+	a. how it works
+	b. Service
+	
+6. Directives
+	a. Structural / Behavioural / Component/ Custom
+	b. Pipes (Pure and Impure, Async pipe)/ Custom pipes
+	
+7. Templates
+	a. Template Driven
+	b. Reactive Form
+	c. Get value, setValue, patchValue, FormValidation, FormGroup, FormBuilder, Dynamic Form
+	d. View Encapsulation (None, Emulated, *)
+	
+8. Routing
+	a. How routing works?
+	b. Eager/Lazy Loading
+	c. AuthGaurd/ CanActivate
+	
+9. Http Interceptors
+	a. how it works and why we need
+	b. Cookies/ Session
+	
+10. RxJs
+	a. Promise/ Subscriber/ Observer
+	b. How to handle error
+
+11. ServerSide rendering(SSR)
+	a. How it works?
+	b. how can we implement?
+
+12. Unit Test
+
